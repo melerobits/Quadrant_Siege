@@ -3,9 +3,19 @@
   "desarrollador": "AlexVentor",
   "url_sitio": "",
   "video_youtube": "https://www.youtube.com/watch?v=mndASGDcHFk",
-  "colores": ["#41a6f6", "#ffcd75", "#b13e53"],
+  "colores": [
+    "#41a6f6",
+    "#ffcd75",
+    "#b13e53"
+  ],
   "icono": "assets/icon.png",
-  "capturas": [],
+  "capturas": [
+    "assets/capturas/captura_1_construir.png",
+    "assets/capturas/captura_2_jefe.png",
+    "assets/capturas/captura_3_opciones.png",
+    "assets/capturas/captura_4_metas.png",
+    "assets/capturas/captura_5_tienda.png"
+  ],
   "fuente": "assets/PressStart2P-Regular.ttf",
   "soporte": {
     "email": "melerobits@gmail.com",
@@ -27,18 +37,50 @@
       {
         "pregunta": "¿Cómo desbloqueo más torres?",
         "respuesta": "Compra las torres con cristales en la Tienda. Los cristales se ganan al terminar cada partida. Solo las torres compradas pueden aparecer como cartas durante una partida."
+      },
+      {
+        "pregunta": "¿Cuándo aparecen los anuncios?",
+        "respuesta": "Aparece un anuncio cada 5 oleadas y otro al terminar una partida. Si sales de la partida y vuelves, el contador se conserva. La compra única «Quitar anuncios» los elimina."
+      },
+      {
+        "pregunta": "¿Qué partidas cuentan para el ranking global?",
+        "respuesta": "Solo las de 3 caminos. Las partidas de 1 y 2 caminos guardan tu récord en el dispositivo, pero no se envían al ranking de Google Play Games."
+      },
+      {
+        "pregunta": "¿Qué pasa con mi partida guardada si empiezo otra?",
+        "respuesta": "Solo se guarda una partida a la vez. Si eliges un tipo de partida nuevo teniendo una guardada, el juego te avisa antes de eliminarla."
+      },
+      {
+        "pregunta": "¿Cómo consigo logros?",
+        "respuesta": "En la pantalla «Metas» ves los 12 logros y las misiones diarias. Los logros también se desbloquean en tu cuenta de Google Play Games."
       }
     ],
     "nombre": "AlexVentor"
   },
   "privacidad": {
-    "fecha_vigencia": "",
+    "fecha_vigencia": "09/11/2026",
     "edad_minima": 13,
     "requiere_cuenta": false,
-    "anuncios": { "activo": true, "proveedor": "Google AdMob" },
-    "compras": { "activo": true, "proveedor": "Google Play Billing" },
-    "play_games": { "activo": true },
-    "analiticas": { "activo": false },
-    "reportes_errores": { "activo": false }
+    "anuncios": {
+      "activo": true,
+      "proveedor": "Google AdMob"
+    },
+    "compras": {
+      "activo": true,
+      "proveedor": "Google Play Billing"
+    },
+    "play_games": {
+      "activo": true
+    },
+    "analiticas": {
+      "activo": false
+    },
+    "reportes_errores": {
+      "activo": false
+    }
+  },
+  "terminos": {
+    "fecha_vigencia": "09/11/2026",
+    "jurisdiccion": ""
   }
 }
