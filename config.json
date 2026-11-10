@@ -24,38 +24,55 @@
     "faq": [
       {
         "pregunta": "¿Cómo quito los anuncios?",
-        "respuesta": "Con la compra única «Quitar anuncios» desde el botón flotante de los menús. La compra se restaura sola al reinstalar o cambiar de móvil con la misma cuenta de Google Play."
+        "respuesta": "Con la compra única «Quitar anuncios» desde el botón flotante de los menús. La compra se restaura sola al reinstalar o cambiar de móvil con la misma cuenta de Google Play.",
+        "pregunta_en": "How do I remove ads?",
+        "respuesta_en": "With the one-time purchase “Remove ads” from the floating button in the menus. The purchase is restored automatically when you reinstall or switch phones with the same Google Play account."
       },
       {
         "pregunta": "¿Perderé mi progreso si desinstalo el juego?",
-        "respuesta": "Las torres desbloqueadas, las mejoras, los cristales y los ajustes se guardan solo en tu dispositivo; al desinstalar se eliminan. Tus récords online siguen en tu cuenta de Google Play Games."
+        "respuesta": "Las torres desbloqueadas, las mejoras, los cristales y los ajustes se guardan solo en tu dispositivo; al desinstalar se eliminan. Tus récords online siguen en tu cuenta de Google Play Games.",
+        "pregunta_en": "Will I lose my progress if I uninstall the game?",
+        "respuesta_en": "Unlocked towers, upgrades, crystals and settings are saved only on your device; uninstalling deletes them. Your online records stay in your Google Play Games account."
       },
       {
         "pregunta": "¿Cómo muevo y amplío el mapa?",
-        "respuesta": "Arrastra con un dedo para mover la cámara, pellizca para hacer zoom o usa los botones + − [] y o del lateral. El botón o vuelve a centrar el núcleo."
+        "respuesta": "Arrastra con un dedo para mover la cámara, pellizca para hacer zoom o usa los botones + − [] y o del lateral. El botón o vuelve a centrar el núcleo.",
+        "pregunta_en": "How do I move and zoom the map?",
+        "respuesta_en": "Drag with one finger to move the camera, pinch to zoom, or use the + − [] and o buttons on the side. The o button re-centers the core."
       },
       {
         "pregunta": "¿Cómo desbloqueo más torres?",
-        "respuesta": "Compra las torres con cristales en la Tienda. Los cristales se ganan al terminar cada partida. Solo las torres compradas pueden aparecer como cartas durante una partida."
+        "respuesta": "Compra las torres con cristales en la Tienda. Los cristales se ganan al terminar cada partida. Solo las torres compradas pueden aparecer como cartas durante una partida.",
+        "pregunta_en": "How do I unlock more towers?",
+        "respuesta_en": "Buy towers with crystals in the Shop. Crystals are earned at the end of each run. Only purchased towers can appear as cards during a run."
       },
       {
         "pregunta": "¿Cuándo aparecen los anuncios?",
-        "respuesta": "Aparece un anuncio cada 5 oleadas y otro al terminar una partida. Si sales de la partida y vuelves, el contador se conserva. La compra única «Quitar anuncios» los elimina."
+        "respuesta": "Aparece un anuncio cada 5 oleadas y otro al terminar una partida. Si sales de la partida y vuelves, el contador se conserva. La compra única «Quitar anuncios» los elimina.",
+        "pregunta_en": "When do ads appear?",
+        "respuesta_en": "An ad appears every 5 waves and another when a run ends. If you leave the run and come back, the counter is kept. The one-time “Remove ads” purchase removes them."
       },
       {
         "pregunta": "¿Qué partidas cuentan para el ranking global?",
-        "respuesta": "Solo las de 3 caminos. Las partidas de 1 y 2 caminos guardan tu récord en el dispositivo, pero no se envían al ranking de Google Play Games."
+        "respuesta": "Solo las de 3 caminos. Las partidas de 1 y 2 caminos guardan tu récord en el dispositivo, pero no se envían al ranking de Google Play Games.",
+        "pregunta_en": "Which runs count for the global leaderboard?",
+        "respuesta_en": "Only 3-path runs. 1-path and 2-path runs save your record on the device but are not sent to the Google Play Games leaderboard."
       },
       {
         "pregunta": "¿Qué pasa con mi partida guardada si empiezo otra?",
-        "respuesta": "Solo se guarda una partida a la vez. Si eliges un tipo de partida nuevo teniendo una guardada, el juego te avisa antes de eliminarla."
+        "respuesta": "Solo se guarda una partida a la vez. Si eliges un tipo de partida nuevo teniendo una guardada, el juego te avisa antes de eliminarla.",
+        "pregunta_en": "What happens to my saved run if I start another?",
+        "respuesta_en": "Only one run is saved at a time. If you choose a new run type while you have one saved, the game warns you before deleting it."
       },
       {
         "pregunta": "¿Cómo consigo logros?",
-        "respuesta": "En la pantalla «Metas» ves los 12 logros y las misiones diarias. Los logros también se desbloquean en tu cuenta de Google Play Games."
+        "respuesta": "En la pantalla «Metas» ves los 12 logros y las misiones diarias. Los logros también se desbloquean en tu cuenta de Google Play Games.",
+        "pregunta_en": "How do I earn achievements?",
+        "respuesta_en": "On the “Goals” screen you can see the 12 achievements and the daily missions. Achievements also unlock in your Google Play Games account."
       }
     ],
-    "nombre": "AlexVentor"
+    "nombre": "AlexVentor",
+    "tiempo_respuesta_en": "48 business hours"
   },
   "privacidad": {
     "fecha_vigencia": "09/11/2026",

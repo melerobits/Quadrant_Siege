@@ -1,6 +1,7 @@
 ﻿clave,valor
 steam,
 itch,
-play_store,https://play.google.com/store/apps/details?id=com.alexventor.quadrantsiege
+play_store,
 app_store,
 descripcion,"Tower defense roguelike retro donde TODO son cuadrados. Defiende el núcleo en un mapa gigante de 121 terrenos con 1, 2 o 3 caminos, elige entre 20 torres y mejora cada una con 3 cartas únicas, y enfréntate a enemigos con más de 200 variantes y jefes cada 5 oleadas. Tras cada oleada elige una carta retro (reliquias, torres nuevas o mejoras de torre), desbloquea terrenos negros, compra mejoras permanentes con cristales, consigue 12 logros y compite en el ranking global de 3 caminos. Disponible en 12 idiomas."
+descripcion_en,"Retro roguelike tower defense where EVERYTHING is made of squares. Defend the core on a giant map of 121 plots with 1, 2 or 3 paths, pick from 20 towers and upgrade each one with 3 unique cards, and face enemies with over 200 variants and a boss every 5 waves. After each wave choose a retro card (relics, new towers or tower upgrades), unlock black plots, buy permanent upgrades with crystals, earn 12 achievements and compete on the 3-path global leaderboard. Available in 12 languages."

@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Quadrant Siege</title>
-<meta name="description" content="Tower defense roguelike retro donde TODO son cuadrados. Defiende el núcleo en un mapa gigante de 121 terrenos con 1, 2 o 3 caminos, elige entre 20 torres y mejora cada una con 3 cartas únicas, y enfréntate a enemigos con más de 200 variantes y jefes cada 5 oleadas. Tras cada oleada elige una carta retro (reliquias, torres nuevas o mejoras de torre), desbloquea terrenos negros, compra mejoras permanentes con cristales, consigue 12 logros y compite en el ranking global de 3 caminos. Disponible en 12 idiomas.">
-<meta property="og:title" content="Quadrant Siege"><meta property="og:description" content="Tower defense roguelike retro donde TODO son cuadrados. Defiende el núcleo en un mapa gigante de 121 terrenos con 1, 2 o 3 caminos, elige entre 20 torres y mejora cada una con 3 cartas únicas, y enfréntate a enemigos con más de 200 variantes y jefes cada 5 oleadas. Tras cada oleada elige una carta retro (reliquias, torres nuevas o mejoras de torre), desbloquea terrenos negros, compra mejoras permanentes con cristales, consigue 12 logros y compite en el ranking global de 3 caminos. Disponible en 12 idiomas."><meta property="og:type" content="website">
-<link rel="icon" href="assets/icon.png">
+<meta name="description" content="Retro roguelike tower defense where EVERYTHING is made of squares. Defend the core on a giant map of 121 plots with 1, 2 or 3 paths, pick from 20 towers and upgrade each one with 3 unique cards, and face enemies with over 200 variants and a boss every 5 waves. After each wave choose a retro card (relics, new towers or tower upgrades), unlock black plots, buy permanent upgrades with crystals, earn 12 achievements and compete on the 3-path global leaderboard. Available in 12 languages.">
+<meta property="og:title" content="Quadrant Siege"><meta property="og:description" content="Retro roguelike tower defense where EVERYTHING is made of squares. Defend the core on a giant map of 121 plots with 1, 2 or 3 paths, pick from 20 towers and upgrade each one with 3 unique cards, and face enemies with over 200 variants and a boss every 5 waves. After each wave choose a retro card (relics, new towers or tower upgrades), unlock black plots, buy permanent upgrades with crystals, earn 12 achievements and compete on the 3-path global leaderboard. Available in 12 languages."><meta property="og:type" content="website">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=55606d3b"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png?v=55606d3b"><link rel="shortcut icon" href="favicon.ico?v=55606d3b"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=55606d3b">
 <style>@font-face{font-family:'JuegoFuente';src:url('assets/PressStart2P-Regular.ttf');font-display:swap}
 :root{--bg:#07070d;--bg2:#0e0e18;--tx:#f2f2f7;--mut:#9a9ab0;--line:rgba(255,255,255,.09);
 --a1:#41a6f6;--a2:#ffcd75;--a3:#b13e53;--font:'JuegoFuente',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
@@ -18,8 +18,8 @@ a{color:inherit}
 .wrap{width:min(1080px,100%);margin:0 auto;padding:0 24px}
 nav{position:fixed;inset:0 0 auto 0;z-index:20;background:linear-gradient(#07070dcc,#07070d00);backdrop-filter:blur(6px)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
-nav b{letter-spacing:.14em;text-transform:uppercase;font-size:.95rem}
-nav div{display:flex;gap:26px;font-size:.9rem;color:var(--mut)}
+nav b{letter-spacing:.14em;text-transform:uppercase;font-size:.85rem}
+nav div{display:flex;gap:22px;font-size:.78rem;color:var(--mut)}
 nav a{text-decoration:none;transition:color .2s}nav a:hover{color:var(--tx)}
 .hero{position:relative;min-height:100vh;display:grid;place-items:center;text-align:center;overflow:hidden;padding:110px 0 70px}
 .hero::before,.hero::after{content:"";position:absolute;inset:0;pointer-events:none}
@@ -64,21 +64,27 @@ footer div{display:flex;gap:22px}
 details{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
 summary{cursor:pointer;font-weight:700}
 details p{margin:10px 0 0}
+.lang{display:inline-flex;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.lang{margin-left:6px}
+.lang a{padding:2px 10px;font-size:.72rem;letter-spacing:.08em}
+.lang a.on{background:var(--a2);color:#07070d;font-weight:700}
+nav .wrap{flex-wrap:wrap;min-height:64px;height:auto;padding-top:8px;padding-bottom:8px}
+nav div{align-items:center;flex-wrap:wrap;justify-content:flex-end}
 @media(max-width:640px){nav div{gap:16px}.shots img{height:320px}.store{width:100%}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
 <nav><div class="wrap"><b><a href="index.html" style="text-decoration:none">Quadrant Siege</a></b>
-<div><a href="#gameplay">Gameplay</a><a href="#descargas">Descargar</a><a href="privacy.html">Privacidad</a><a href="terms.html">Condiciones</a><a href="delete.html">Eliminar datos</a><a href="support.html">Soporte</a></div></div></nav>
+<div><a href="#gameplay">Gameplay</a><a href="#descargas">Download</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="delete.html">Delete data</a><a href="support.html">Support</a><span class="lang" role="group" aria-label="Language / Idioma"><a href="index.html" hreflang="en" lang="en" class=on aria-current=true>EN</a><a href="es/index.html" hreflang="es" lang="es">ES</a></span></div></div></nav>
 <header class="hero">
-<div class="wrap"><img class="icon" src="assets/icon.png" alt="Icono de Quadrant Siege"><h1>Quadrant Siege</h1>
+<div class="wrap"><img class="icon" src="assets/icon.png" alt="Icon of Quadrant Siege"><h1>Quadrant Siege</h1>
 </div></header>
-<section id="gameplay"><div class="wrap"><h2>Gameplay</h2><p class="sub">Tower defense roguelike retro donde TODO son cuadrados. Defiende el núcleo en un mapa gigante de 121 terrenos con 1, 2 o 3 caminos, elige entre 20 torres y mejora cada una con 3 cartas únicas, y enfréntate a enemigos con más de 200 variantes y jefes cada 5 oleadas. Tras cada oleada elige una carta retro (reliquias, torres nuevas o mejoras de torre), desbloquea terrenos negros, compra mejoras permanentes con cristales, consigue 12 logros y compite en el ranking global de 3 caminos. Disponible en 12 idiomas.</p><div class="video" id="vid" style="background-image:url('https://i.ytimg.com/vi/mndASGDcHFk/hqdefault.jpg')">
-<button type="button" aria-label="Reproducir el gameplay" onclick="document.getElementById('vid').innerHTML='<iframe src=&quot;https://www.youtube-nocookie.com/embed/mndASGDcHFk?autoplay=1&amp;rel=0&quot; title=&quot;Gameplay&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen></iframe>'"><span class="play"></span></button></div>
-<noscript><p class="sub" style="margin-top:18px"><a href="https://www.youtube.com/watch?v=mndASGDcHFk">Ver el gameplay en YouTube</a></p></noscript></div></section>
-<section><div class="wrap"><h2>Capturas</h2><p class="sub">&nbsp;</p><div class="shots"><img src="assets/captura_1_construir.png" alt="Captura de Quadrant Siege" loading="lazy"><img src="assets/captura_2_jefe.png" alt="Captura de Quadrant Siege" loading="lazy"><img src="assets/captura_3_opciones.png" alt="Captura de Quadrant Siege" loading="lazy"><img src="assets/captura_4_metas.png" alt="Captura de Quadrant Siege" loading="lazy"><img src="assets/captura_5_tienda.png" alt="Captura de Quadrant Siege" loading="lazy"></div></div></section>
-<section id="descargas"><div class="wrap"><h2>Descarga el juego</h2><p class="sub">Elige tu plataforma</p><div class="stores"><a class="store" style="--brand:#34a853" href="https://play.google.com/store/apps/details?id=com.alexventor.quadrantsiege" target="_blank" rel="noopener"><img src="assets/platforms/googleplay.svg" alt="Google Play"><span><small>Descárgalo en</small><b>Google Play</b></span></a></div></div></section>
+<section id="gameplay"><div class="wrap"><h2>Gameplay</h2><p class="sub">Retro roguelike tower defense where EVERYTHING is made of squares. Defend the core on a giant map of 121 plots with 1, 2 or 3 paths, pick from 20 towers and upgrade each one with 3 unique cards, and face enemies with over 200 variants and a boss every 5 waves. After each wave choose a retro card (relics, new towers or tower upgrades), unlock black plots, buy permanent upgrades with crystals, earn 12 achievements and compete on the 3-path global leaderboard. Available in 12 languages.</p><div class="video" id="vid" style="background-image:url('https://i.ytimg.com/vi/mndASGDcHFk/hqdefault.jpg')">
+<button type="button" aria-label="Play the gameplay video" onclick="document.getElementById('vid').innerHTML='<iframe src=&quot;https://www.youtube-nocookie.com/embed/mndASGDcHFk?autoplay=1&amp;rel=0&quot; title=&quot;Gameplay&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen></iframe>'"><span class="play"></span></button></div>
+<noscript><p class="sub" style="margin-top:18px"><a href="https://www.youtube.com/watch?v=mndASGDcHFk">Watch the gameplay on YouTube</a></p></noscript></div></section>
+<section id="capturas"><div class="wrap"><h2>Screenshots</h2><p class="sub">&nbsp;</p><div class="shots"><img src="assets/captura_1_construir.png" alt="Screenshot of Quadrant Siege" loading="lazy"><img src="assets/captura_2_jefe.png" alt="Screenshot of Quadrant Siege" loading="lazy"><img src="assets/captura_3_opciones.png" alt="Screenshot of Quadrant Siege" loading="lazy"><img src="assets/captura_4_metas.png" alt="Screenshot of Quadrant Siege" loading="lazy"><img src="assets/captura_5_tienda.png" alt="Screenshot of Quadrant Siege" loading="lazy"></div></div></section>
+<section id="descargas"><div class="wrap"><h2>Download the game</h2><p class="sub">Choose your platform</p><div class="stores"><p class="sub">Coming soon.</p></div></div></section>
 <footer><div class="wrap"><span>© 2026 AlexVentor. Quadrant Siege.</span>
-<div><a href="privacy.html">Política de Privacidad</a><a href="terms.html">Condiciones del Servicio</a><a href="delete.html">Eliminación de cuenta y datos</a><a href="support.html">Soporte</a></div></div></footer>
+<div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="delete.html">Account and data deletion</a><a href="support.html">Support</a></div></div></footer>
 </body></html>
